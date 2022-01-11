@@ -10,7 +10,7 @@ Also checks for how many unique inbound ips belong to specific subnets.
 - copy (built in)
 
 ## Getting Started
-- clone repo to local `https://github.com/hannerific/carta-sre`
+- clone repo to local `https://github.com/hannerific/nginx-log-parser`
 - `python3 carta.py` from repo in local machine
 - `docker build -t nginx:carta-image`
 - `docker run -it -d --publish 8080:80 -v log_audit.html:/var/log/html --name carta-container nginx:carta-image`
